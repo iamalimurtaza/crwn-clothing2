@@ -53,7 +53,6 @@ class SignUp extends React.Component {
 						type='text'
 						name='displayName'
 						value={displayName}
-						id='displayName'
 						handelOfChange={this.changeHandler}
 						labelText='Display Name'
 					/>
@@ -61,7 +60,6 @@ class SignUp extends React.Component {
 						type='email'
 						name='email'
 						handelOfChange={this.changeHandler}
-						id='email'
 						value={email}
 						labelText='Email Address'
 					/>
@@ -70,7 +68,6 @@ class SignUp extends React.Component {
 						name='password'
 						handelOfChange={this.changeHandler}
 						value={password}
-						id='password'
 						labelText='Password'
 					/>
 					<FormInput
@@ -79,7 +76,6 @@ class SignUp extends React.Component {
 						handelOfChange={this.changeHandler}
 						value={confirmPassword}
 						labelText='Confirm Password'
-						id='confirmPassword'
 					/>
 					<CustomButton type='submit'>Register Now</CustomButton>
 				</form>
